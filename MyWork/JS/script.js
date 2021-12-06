@@ -31,11 +31,48 @@ typeof(answers);
 
 
 
-const category = 'toys';
-console.log(`https//someurl.com/${category}/5`);
-
 let user = "Ivan";
 alert(`Hello, ${user}`);
 
 
 
+let num = 50 ;
+// if (num< 49) {
+//     console.log("Error");
+// } else if (num> 100){
+//     console.log ("Too mutch");
+// } else {
+//     console.log("Ok");
+// }
+
+// (num == 50) ? console.log("Ok") : console.log("Error");
+
+// switch(num) {
+//     case 49:console.log('no');
+//     break;
+//     case 100:console.log('no');
+//     break;
+//     case 50:console.log('Yes');
+//     break;
+//     default:console.log('No so good');
+//     break;
+// }
+
+// while ( num < 55 ) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;  
+// }
+// while(num <= 55);
+
+for (let i = 1; i<10; i++) {
+    if (i == 6) {
+       // break
+       continue;   
+    }
+    console.log(i);
+}
